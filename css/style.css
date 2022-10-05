@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{   
+    position: sticky;
+    top: 0;
+    background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;  
+}
+.logo span{
+    color:rgba(0, 0, 139, 0.623);    
+}
+
+nav a {
+    padding: 0px 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+nav a:hover{
+    transition: 0s;
+    color:rgba(0, 0, 139, 0.623) ;
+    background-color:rgba(30, 143, 255, 0.493) ;
+    border-radius: 10px;
+}
+.homepage{
+    height: 100vh;
+    background-size: cover;
+    background-image: url(..//images/architecture-gaf883ddee_1920.jpg);
+}
+.opacity{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.466);
+    color:rgb(209, 209, 203);
+align-items: center;
+    font-size: 60px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.opacity h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.opacity span{
+    background-color:rgba(30, 143, 255, 0.493) ;
+    border-radius: 12px;
+}
+.sec-2-items{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 15px; 
+}
+.items{
+    padding: 15px 0px;
+}
+.sec-2 h2{
+    align-items: center;
+    text-align: center;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+.section-3 h1{
+    
+    align-items: center;
+    text-align: center;
+    font-size: 45px;
+    font-family: sans-serif;
+    padding: 15px 5px;
+
+}
+.p{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgba(22, 54, 87, 0.904);
+}
+.h3{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.boton{
+    
+    font-size: 20px;
+}
+btn btn-outline-dark:hover{
+background-color: black;
+color: white;
+}
+input{
+    width: 100vh;
+    height: 8vh;
+}
+footer{
+padding: 40px 0px;
+text-align: center;
+background-color: black;
+color: white;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+}
+footer .fa{
+    padding: 15px;
+    margin: 0px 10px;
+}
+
+footer .fa:hover{
+ transition: 0s;
+ background-color:rgba(30, 143, 255, 0.493) ;
+ color: white;
+ border-radius: 17px;
+}
